@@ -1,11 +1,11 @@
 .ms-cont{
-    height: 8rem;
-    background-color: brown;
+    height: 6.9375rem;
+    background-color: #f8f9fa;
 }
 
 #left,
 #right{
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6.9375rem);
 }
 
 #left{
@@ -16,10 +16,9 @@
 #right{
     background-color: pink;
     width: 80%;
-}
-.right{
     overflow-y: scroll;
 }
+
 
 #right .row{
     background-color: aliceblue;
