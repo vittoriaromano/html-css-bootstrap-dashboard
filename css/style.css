@@ -2,3 +2,26 @@
     height: 8rem;
     background-color: brown;
 }
+
+#left,
+#right{
+    height: calc(100vh - 8rem);
+}
+
+#left{
+    background-color: black;
+    width: 20%;
+}
+
+#right{
+    background-color: pink;
+    width: 80%;
+}
+.right{
+    overflow-y: scroll;
+}
+
+#right .row{
+    background-color: aliceblue;
+    margin: 0 0 1.875rem 0;
+}
