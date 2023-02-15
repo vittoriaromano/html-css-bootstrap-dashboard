@@ -1,32 +1,29 @@
 
 /* header */
 header{
-
-    /* height: 6.9375rem; */
-    box-sizing: border-box;
-    padding: auto 0;
+    padding:.5rem 0;
+    background-color: #f8f9fa;
 }
 
 .ms-cont{ 
-    background-color: #eae9e9;
+    background-color: #ffffff;
 }
 .ms-search{
-    background-color: #aaafb3!important;
-    border-radius: .625rem;
-    
+    background-color: #e5e5e5!important;  
+    border-radius: .375rem;  
+    margin-left: .625rem;
 }
+
 /* logo small */
 header .img-fluid{
     height: 60px;
-    width: 100px;
+    width: 60px;
 }
 
-@media screen and (min-width: 400px){
-    header .img-fluid{
-     width: 150px;
-     
-    } 
+.form-control{
+    background-color:transparent!important;
 }
+
 /* common */
 
 li,ul *{

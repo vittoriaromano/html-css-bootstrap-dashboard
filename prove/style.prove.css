@@ -1,3 +1,11 @@
-i{
-    color: black;
+
+
+.body{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-control{
+    background-color: pink!important;
 }
