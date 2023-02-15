@@ -1,7 +1,40 @@
-.ms-cont{
-    height: 6.9375rem;
-    background-color: #f8f9fa;
+
+/* header */
+header{
+
+    /* height: 6.9375rem; */
+    box-sizing: border-box;
+    padding: auto 0;
 }
+
+.ms-cont{ 
+    background-color: #eae9e9;
+}
+.ms-search{
+    background-color: #aaafb3!important;
+    border-radius: .625rem;
+    
+}
+/* logo small */
+header .img-fluid{
+    height: 60px;
+    width: 100px;
+}
+
+@media screen and (min-width: 400px){
+    header .img-fluid{
+     width: 150px;
+     
+    } 
+}
+/* common */
+
+li,ul *{
+    list-style: none;
+
+}
+
+/* main */
 
 #left,
 #right{
@@ -10,12 +43,13 @@
 
 #left{
     background-color: black;
-    width: 20%;
+    color: white;
+    
 }
 
 #right{
-    background-color: pink;
-    width: 80%;
+   
+    width: 100%;
     overflow-y: scroll;
 }
 
@@ -23,4 +57,10 @@
 #right .row{
     background-color: aliceblue;
     margin: 0 0 1.875rem 0;
+}
+
+
+
+#right .img-fluid{
+    height: 1.875rem;
 }
