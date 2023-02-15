@@ -11,34 +11,81 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
   <body class="body">
-    <div class="row">
-        <div class="col">
-
-
-            <nav class="bg-body-tertiary">
-                <form class="form-inline">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <input class="form-control border-0 ms-search" type="search" placeholder="Search" aria-label="Search">
-                </form>
-            </nav>
-        
-        </div>
-    </div>
-    <div class="row my-3">
-        <div class="col">
-            
-            
-                <div class="container-fluid">
-                  <form class="d-flex align-items-center" role="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input class="form-control  me-2 border-0" type="search" placeholder="Search" aria-label="Search"> 
-                  </form>
-                </div>
-            
-        
-        </div>
-    </div>
     
+        
+    <div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus"></i></button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+<h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+       <section>
+            <form action="#" method="get">
+                <div class="d-flex flex-wrap">
+                    <!-- nome -->
+                    <div class="col-6 mt-4 mb-4 ">
+                        <label for="nome">Nome</label>
+                        <input class="form-control  " type="text" id="nome" placeholder="Name">
+                    </div>
+                    <!-- cognome -->
+                    <div class="col-6 mt-4 mb-4 ">
+                        <label for="cognome">Cognome</label>
+                        <input class="form-control  " type="text" id="cognome" placeholder="Cognome">
+                    </div>
+                    <!-- email -->
+                    <div class="col-6 mb-4">
+                        <label for="addon-wrapping">Email</label>
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                          </div>
+                    </div>
+                    <!-- password -->
+                    <div class="col-6 mb-4">
+                        <label for="password">password</label>
+                        <input class="form-control border-top-0 " type="tel" id="password" placeholder="password">
+                    </div>
+                    <!-- indirizzo-->
+                    <div class="col-12 mt-4 mb-4 ">
+                        <label for="indirizzo">Indirizzo</label>
+                        <input class="form-control border-top-0 " type="text" id="indirizzo" placeholder="indirizzo">
+                    </div>
+                    
+                    <!-- citta-->
+                    <div class="col-6 mb-4">
+                        <label for="citta">Citta</label>
+                        <input class="form-control border-top-0 " type="tel" id="citta" placeholder="Citta">
+                    </div>
+                    <!-- stato select -->
+                    <div class="col-12 mt-4 mb-4 ">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <!-- cap -->
+                    <div class="col-2 mt-4 mb-4 ">
+                        <label for="cap">CAP</label>
+                        <input class="form-control border-top-0 " type="text" id="cap" placeholder="CAP">
+                    </div>
+                    <!-- foto choose file -->
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Scegli il File</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                </div>   
+            </form>
+        
+        </section>
+</div>
+        </div>
+      </div>
+    </div>
+</div>
    
 
     
