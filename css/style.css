@@ -55,6 +55,7 @@ li,ul *{
     background-color:#1b72e8; 
     color: white;
     margin: 0 0 1.875rem 0;
+    border: 0;
 }
 
 .badge{
@@ -70,5 +71,20 @@ li,ul *{
 }
 
 .btn{
-    background-color:#1b72e8!important;
+    background-color:#1b72e8;
+}
+
+.text-bg-success{
+    background-color: green!important;
+}
+.text-bg-danger{
+    background-color: red!important;
+}
+.text-bg-warning{
+    background-color: rgb(255, 217, 4)!important;
+
+}
+
+#graph{
+    heig
 }
