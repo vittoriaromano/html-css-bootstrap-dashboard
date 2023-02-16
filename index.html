@@ -59,7 +59,7 @@
        
          <!-- sezione home sinistra -->
           <section id="left" >
-            <div class="row p-4"> 
+            <div class="row p-4 h-100"> 
                 <div class="d-flex  col mb-3">
                     <ul class="d-flex flex-column p-2">
                         <li class="d-flex pb-2">
@@ -111,7 +111,7 @@
                         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><div class="vr-blu"><i class="fa-regular fa-square-plus"></i></div></button>
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
            <div class="offcanvas-body">
@@ -152,7 +152,7 @@
                                         <input class="form-control border-top-0 " type="tel" id="citta" placeholder="Citta">
                                     </div>
                                     <!-- stato select -->
-                                    <div class="col-4 mt-4 mb-4 ">
+                                    <div class="col-4  mb-4 ">
                                       <label for="stato">stato</label>
                                       <select class="form-select" aria-label="Default select example">
                                         <option selected>Open this select menu</option>
@@ -162,7 +162,7 @@
                                       </select>
                                     </div>
                                     <!-- cap -->
-                                    <div class="col-2 mt-4 mb-4 ">
+                                    <div class="col-2  mb-4 ">
                                         <label for="cap">CAP</label>
                                         <input class="form-control border-top-0 " type="text" id="cap" placeholder="CAP">
                                     </div>
@@ -180,7 +180,8 @@
                                     </div>
                                     <!-- save/reset button -->
                                     <input class="btn btn-primary me-2" type="submit" value="Submit">
-                                    <input class="btn " type="reset" value="Reset">
+                                  
+                                    <button type="reset" value="Reset" class="btn btn-warning">Reset</button>
                          </div>   
                     </form>
                  </section>
@@ -214,80 +215,109 @@
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-success">Success</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-danger">Danger</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-warning">Warning</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-success">Success</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-danger">Danger</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-warning">Warning</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
                                         <tr class="d-flex">
                                             <th class="flex-grow-1" scope="col col-4 ">
                                                 <img class="img-fluid" src="img/class-avatar.jpg" alt="class avatar">
-                                                <span>Classe 89</span> </th>
+                                                <span>Classe 89</span> 
+                                            </th>
                                             <td class="me-2" scope="col">15 Feb 2023</td>
                                             <td class="d-none d-md-block" scope="col">20%</td>
                                             <td class="d-none d-md-block" scope="col">
                                                 <span class="badge text-bg-warning">Warning</span>
                                             </td>
-                                            <td class="me-2" scope="col col-2">Azioni</td>
+                                            <td class="me-2" scope="col col-2">
+                                              <i class="fa-regular fa-pen-to-square"></i>
+                                              <i class="fa-regular fa-trash-can"></i>
+                                            </td>
                                         </tr>
+                                        
                                 
                                 
                                 
